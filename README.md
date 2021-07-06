@@ -1,2 +1,1 @@
-# datas
-SiriUserBot required files
+epicUserBot required files
