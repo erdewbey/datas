@@ -1,5 +1,5 @@
-MESAJ="Epic UserBot İOS Otomatik Kurulum!"
-MESAJ+="\nTG: @EpicUserBot - @HydraDev"
+MESAJ="Owen UserBot İOS Otomatik Kurulum!"
+MESAJ+="\nTG: @OwenUserBot - @OwenProjects"
 echo y | apk update
 clear
 echo -e $MESAJ
@@ -14,14 +14,14 @@ echo -e $MESAJ
 echo "TeleThon Yükleniyor"
 python3 -m pip install telethon
 echo "Repo klonlanır..."
-git clone https://github.com/ErdemBey0/epicinstaller
+git clone https://github.com/ErdewBey/oweninstaller
 clear
 echo -e $MESAJ
 clear
 echo -e $MESAJ
 echo "Hazırlıklar Yapılıyor..."
-cd EpicInstaller
+cd OwenInstaller
 python3 -m pip install wheel
 python3 -m pip install -r requirements.txt
 clear
-python3 -m epic_installer
+python3 -m owen_installer
